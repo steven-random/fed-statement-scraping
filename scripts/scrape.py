@@ -193,6 +193,7 @@ def main():
             text = f'Date: "{date}" \n Type: {type_} \n Context: {text}"'
 
             notifier.send_notification(text)
+            print(f'Successfully send notifications')
 
 
 if __name__ == "__main__":
